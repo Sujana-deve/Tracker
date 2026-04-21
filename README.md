@@ -1,16 +1,75 @@
-# React + Vite
+# 🧠 Smart To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and simple **React To-Do App** that helps users manage daily tasks with ease. It includes task creation, editing, filtering, progress tracking, and a focus mode for distraction-free work.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- ➕ Add, edit, and delete tasks  
+- 🗂 Organize tasks by category and priority  
+- ✔️ Mark tasks as completed  
+- 🔍 Filter tasks (category, priority, status)  
+- 📊 Progress bar (total & completed tasks)  
+- 🌙 Dark / Light mode toggle  
+- 🎯 Focus Mode (view one task at a time)  
+- 💾 Saves data using localStorage  
+- 🖱 Drag & drop support (if enabled)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Functional Components)
+- React Hooks (useState, useEffect)
+- localStorage API
+- Tailwind CSS / CSS
+- Drag & Drop (dnd-kit or react-beautiful-dnd)
+
+---
+
+## 📁 Project Structure
+
+
+src/
+├── components/
+│ ├── TaskList.jsx
+│ ├── TaskItem.jsx
+│ ├── TaskForm.jsx
+│ ├── FilterBar.jsx
+│ ├── ProgressBar.jsx
+│ ├── ThemeToggle.jsx
+│ ├── FocusMode.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+📦 Build
+npm run build
+🎯 Purpose
+
+This project is built to practice React fundamentals, state management, and UI design while creating a real-world productivity tool.
+
+👩‍💻 Author
+
+Built as a React learning project.
+
+
+---
+
+If you want, I can also make:
+- 🔥 **:contentReference[oaicite:0]{index=0}**
+- 📸 :contentReference[oaicite:1]{index=1}
+- 🚀 or :contentReference[oaicite:2]{index=2}
